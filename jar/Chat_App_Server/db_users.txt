@@ -1,0 +1,4 @@
+1 1
+long long
+hao hao
+nam nam

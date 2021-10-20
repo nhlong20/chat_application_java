@@ -1,0 +1,43 @@
+Đánh giá chung: 10/14 điểm
+---------------------------------
+1. [2 điểm] Màn hình Server với đủ thông tin: config, đóng / mở server, 
+danh sách client đang kết nối.
+	- Mức độ hoàn thành: 100%
+	- Tự đánh giá 2/2
+2. [2 điểm] Màn hình Client đủ thông tin về các chức năng cơ bản của 
+chương trình: danh sách server để kết nối / thông tin của server nếu 
+đang kết nối, danh sách các user đang online.
+	- Mức độ hoàn thành: 100%
+	- Tự đánh giá 2/2
+3. [1 điểm] Cho phép quản lý danh sách server cho client như: thêm, xóa, 
+sửa và ghi nhớ dạng file config.
+	- KMức độ hoàn thành: 0%
+	- Tự đánh giá 0/1
+4. [1 điểm] Đăng ký chat user (đăng ký từ ứng dụng client).
+	- Mức độ hoàn thành: 100%
+	- Tự đánh giá 1/1
+5. [1 điểm] Khung chat với đầy đủ thông tin người chat, nội dung chat.
+	- Mức độ hoàn thành: 100%
+	- Tự đánh giá 1/1
+6. [1 điểm] Cho phép lựa chọn ENTER là gửi nội dung chat hoặc xuống 
+dòng (cho phép nội dung chat nhiều dòng).
+	- Mức độ hoàn thành: 100%
+	- Tự đánh giá 1/1
+7. [1 điểm] Cho phép sử dụng emoji đơn giản (tối thiểu 5 emoji).
+	- Mức độ hoàn thành: 100%
+	- Tự đánh giá 1/1
+8. [1 điểm] Cho phép chat với nhiều user (chia nhiều tab).
+	- Mức độ hoàn thành: 100%
+	- Tự đánh giá 1/1
+9. [1 điểm] Cho phép gởi file trong khi chat.
+	- Mức độ hoàn thành: 100%
+	- Tự đánh giá 1/1
+10.[1 điểm] Cho phép tạo group chat và thực hiện chat nhóm.
+	- Mức độ hoàn thành: 0%
+	- Tự đánh giá 0/1
+11.[1 điểm] Cho phép sử dụng voice chat.
+	- Mức độ hoàn thành: 0%
+	- Tự đánh giá 0/1
+12.[2 điểm] Cho phép sử dụng webcam.
+	- Mức độ hoàn thành: 0%
+	- Tự đánh giá 0/1

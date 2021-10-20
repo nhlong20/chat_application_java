@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="client.views.ChatBoxGUI">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="5" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="20" y="20" width="600" height="600"/>
+    </constraints>
+    <properties>
+      <minimumSize width="600" height="450"/>
+      <preferredSize width="600" height="450"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="b41b" class="javax.swing.JLabel" binding="receiverLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="14"/>
+          <foreground color="-1"/>
+          <text value="Chat to: ai đó"/>
+        </properties>
+      </component>
+      <component id="bfff3" class="javax.swing.JButton" binding="fileTranferBtn">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="-1" height="35"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="14"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="7ca1a" class="javax.swing.JButton" binding="sendBtn">
+        <constraints>
+          <grid row="4" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="-1" height="35"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-15261397"/>
+          <borderPainted value="true"/>
+          <foreground color="-15261397"/>
+          <label value=""/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="ea91f" class="javax.swing.JComboBox" binding="enterModeComboBox">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="Enter - gửi"/>
+            <item value="Enter - xuống dòng"/>
+          </model>
+        </properties>
+      </component>
+      <hspacer id="7eae4">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="e8d1c" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-1"/>
+          <text value="Enter mode:"/>
+        </properties>
+      </component>
+      <scrollpane id="7135c">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="4" vsize-policy="1" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="-1" height="35"/>
+            <preferred-size width="-1" height="35"/>
+            <maximum-size width="-1" height="35"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="53bf7" class="javax.swing.JTextArea" binding="messgeEnterArea">
+            <constraints/>
+            <properties>
+              <background color="-15194829"/>
+              <foreground color="-1"/>
+              <maximumSize width="2147483647" height="35"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <scrollpane id="2d62">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="6" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <autoscrolls value="true"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="43e5" class="javax.swing.JList" binding="chatTextList">
+            <constraints/>
+            <properties/>
+          </component>
+        </children>
+      </scrollpane>
+      <grid id="cced2" binding="emoPanel" layout-manager="GridBagLayout">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="6" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15655601"/>
+        </properties>
+        <border type="none"/>
+        <children/>
+      </grid>
+    </children>
+  </grid>
+</form>
